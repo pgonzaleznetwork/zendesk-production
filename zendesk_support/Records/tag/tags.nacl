@@ -46,3 +46,6 @@ zendesk_support.tag yo {
 zendesk_support.tag review_delete {
   id = "review_delete"
 }
+zendesk_support.tag customer_notified {
+  id = "customer_notified"
+}
