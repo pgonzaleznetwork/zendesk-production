@@ -1,0 +1,3 @@
+zendesk_support.trigger_category new_category_name@s {
+  name = "Billing"
+}

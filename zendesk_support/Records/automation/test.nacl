@@ -1,0 +1,32 @@
+zendesk_support.automation test {
+  title = "test"
+  active = true
+  actions = [
+    {
+      field = "status"
+      value = "solved"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "open"
+      },
+    ]
+    any = [
+      {
+        field = "via_id"
+        operator = "is"
+        value = zendesk_support.channel.instance.Facebook_Post@s
+      },
+      {
+        field = "via_id"
+        operator = "is"
+        value = zendesk_support.channel.instance.Facebook_Private_Message@s
+      },
+    ]
+  }
+  raw_title = "test"
+}

@@ -1,0 +1,17 @@
+zendesk_support.automation_order {
+  active = [
+    zendesk_support.automation.instance.test2,
+    zendesk_support.automation.instance.tes1,
+    zendesk_support.automation.instance.test,
+    zendesk_support.automation.instance.modified_automation_with_tagger11@s,
+    zendesk_support.automation.instance.modified_automation_with_tagger111@s,
+    zendesk_support.automation.instance.tes,
+    zendesk_support.automation.instance.Automate_Ticket_Type_by_Priority@s,
+    zendesk_support.automation.instance.BrokenAutomation,
+    zendesk_support.automation.instance.Missed_Tier_3_Escalation@s,
+  ]
+  inactive = [
+    zendesk_support.automation.instance.Pending_notification_24_hours@s,
+    zendesk_support.automation.instance.Pending_notification_5_days@s,
+  ]
+}

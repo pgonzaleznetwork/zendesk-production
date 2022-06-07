@@ -1,0 +1,27 @@
+zendesk_support.automation tes {
+  title = "tes"
+  active = true
+  actions = [
+    {
+      field = "status"
+      value = "solved"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "pending"
+      },
+    ]
+    any = [
+      {
+        field = "via_id"
+        operator = "is"
+        value = zendesk_support.channel.instance.Facebook_Post@s
+      },
+    ]
+  }
+  raw_title = "tes"
+}

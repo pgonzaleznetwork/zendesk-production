@@ -1,0 +1,89 @@
+zendesk_support.trigger Broken_Trigger@s {
+  title = "Broken Trigger"
+  active = true
+  actions = [
+    {
+      field = "notification_webhook"
+      value = [
+        zendesk_support.webhook.instance.Slack_integration_Endpoint@s,
+        '''
+{"hello": {{ticket.ticket_field_ID}}}
+
+''',
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "new"
+      },
+      {
+        field = "brand_id"
+        operator = "is"
+        value = zendesk_support.brand.instance.Brandon
+      },
+      {
+        field = "ticket_form_id"
+        operator = "is_not"
+        value = zendesk_support.ticket_form.instance.tf_1@zb
+      },
+      {
+        field = "group_id"
+        operator = "is"
+        value = zendesk_support.group.instance.Support
+      },
+      {
+        field = "assignee_id"
+        operator = "is"
+        value = "1531460733962"
+      },
+      {
+        field = "requester_id"
+        operator = "is"
+        value = "1533922351622"
+      },
+      {
+        field = "organization_id"
+        operator = "is"
+        value = "1500709144521"
+      },
+      {
+        field = "recipient"
+        operator = "is"
+        value = "support@brandon123123123121.zendesk.com"
+      },
+      {
+        field = "schedule_id"
+        operator = "is"
+        value = "4419014695315"
+      },
+      {
+        field = zendesk_support.ticket_field.instance.tagger_TestDropdown1_updated@us
+        operator = "is"
+        value = zendesk_support.ticket_field__custom_field_options.instance.missing_1500027150902
+      },
+      {
+        field = zendesk_support.organization_field.instance.another_drop_down
+        operator = "is"
+        value = zendesk_support.organization_field__custom_field_options.instance.missing_1500003632201
+      },
+      {
+        field = zendesk_support.ticket_field.instance.date_TestDate1
+        operator = "is"
+        value = "2022-04-13"
+      },
+    ]
+    any = [
+      {
+        field = zendesk_support.user_field.instance.piefield
+        operator = "is"
+        value = "2022-04-12"
+      },
+    ]
+  }
+  raw_title = "Broken Trigger"
+  category_id = zendesk_support.trigger_category.instance.test
+}

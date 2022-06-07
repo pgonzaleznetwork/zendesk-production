@@ -1,0 +1,14 @@
+zendesk_support {
+  fetch = {
+    include = [
+      {
+        type = ".*"
+      },
+    ]
+    exclude = [
+      {
+        type = "organization"
+      },
+    ]
+  }
+}

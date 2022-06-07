@@ -1,0 +1,25 @@
+zendesk_support.macro first1 {
+  title = "first1"
+  active = true
+  actions = [
+    {
+      field = "comment_value_html"
+      value = "<p>test desc</p>"
+    },
+    {
+      field = "brand_id"
+      value = zendesk_support.brand.instance.Salto
+    },
+    {
+      field = "group_id"
+      value = zendesk_support.group.instance.Support
+    },
+  ]
+  restriction = {
+    type = "Group"
+    ids = [
+      zendesk_support.group.instance.Support,
+    ]
+  }
+  raw_title = "first1"
+}

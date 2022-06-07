@@ -1,0 +1,48 @@
+zendesk_support.tag dasdad {
+  id = "dasdad"
+}
+zendesk_support.tag bla {
+  id = "bla"
+}
+zendesk_support.tag bbb {
+  id = "bbb"
+}
+zendesk_support.tag aaa {
+  id = "aaa"
+}
+zendesk_support.tag option2 {
+  id = "option2"
+}
+zendesk_support.tag escalated {
+  id = "escalated"
+}
+zendesk_support.tag missed_escalation_sla {
+  id = "missed_escalation_sla"
+}
+zendesk_support.tag wwwssee {
+  id = "wwwssee"
+}
+zendesk_support.tag value {
+  id = "value"
+}
+zendesk_support.tag tagtwo {
+  id = "tagtwo"
+}
+zendesk_support.tag tagone {
+  id = "tagone"
+}
+zendesk_support.tag rrree {
+  id = "rrree"
+}
+zendesk_support.tag eee {
+  id = "eee"
+}
+zendesk_support.tag ddd {
+  id = "ddd"
+}
+zendesk_support.tag yo {
+  id = "yo"
+}
+zendesk_support.tag review_delete {
+  id = "review_delete"
+}
