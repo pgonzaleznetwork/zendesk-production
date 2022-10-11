@@ -10,7 +10,8 @@ zendesk_support.ticket_form_order {
     zendesk_support.ticket_form.instance.TFToRemove2,
     zendesk_support.ticket_form.instance.Other,
     zendesk_support.ticket_form.instance.Customer_Ticket_Form@s,
+    zendesk_support.ticket_form.instance.Platinum_Form@s,
+    zendesk_support.ticket_form.instance.Platinum,
   ]
-  inactive = [
-  ]
+  
 }

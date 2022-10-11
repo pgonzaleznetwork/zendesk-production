@@ -10,54 +10,78 @@ zendesk_support.view Current_tasks@s {
       id = "due_date"
       title = "Due date"
       order = "asc"
+      filterable = true
+      sortable = true
     }
     sort = {
       id = "assignee"
       title = "Assignee"
       order = "desc"
+      filterable = true
+      sortable = true
     }
     columns = [
       {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "assignee"
         title = "Assignee"
+        filterable = true
+        sortable = true
       },
       {
         id = "due_date"
         title = "Due date"
+        filterable = true
+        sortable = true
       },
     ]
     fields = [
       {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "assignee"
         title = "Assignee"
+        filterable = true
+        sortable = true
       },
       {
         id = "due_date"
         title = "Due date"
+        filterable = true
+        sortable = true
       },
     ]
   }

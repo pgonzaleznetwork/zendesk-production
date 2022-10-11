@@ -2,8 +2,8 @@ zendesk_support.workspace Noam_Crazy_workspace@s {
   title = "Noam Crazy workspace"
   description = "crazy!!!"
   macro_ids = [
-    zendesk_support.macro.instance.Take_it_@sl,
-    zendesk_support.macro.instance.Noam_Crazy_Macro@s,
+    1500047386421,
+    1900027398885,
   ]
   ticket_form_id = zendesk_support.ticket_form.instance.Noam_TicketForm@s
   activated = true
@@ -65,24 +65,5 @@ zendesk_support.workspace Noam_Crazy_workspace@s {
       },
     ]
   }
-  selected_macros = [
-    {
-      id = zendesk_support.macro.instance.Take_it_@sl
-      title = "Take it!"
-      active = true
-      usage_7d = 0
-    },
-    {
-      id = zendesk_support.macro.instance.Noam_Crazy_Macro@s
-      title = "Noam Crazy Macro"
-      active = true
-      usage_7d = 0
-      restriction = {
-        type = "Group"
-        ids = [
-          zendesk_support.group.instance.Support,
-        ]
-      }
-    },
-  ]
+  
 }

@@ -34,5 +34,5 @@ zendesk_support.trigger Slack_Ticket_Trigger@s {
     ]
   }
   raw_title = "Slack Ticket Trigger"
-  category_id = zendesk_support.trigger_category.instance.test
+  category_id = zendesk_support.trigger_category.instance.Other
 }

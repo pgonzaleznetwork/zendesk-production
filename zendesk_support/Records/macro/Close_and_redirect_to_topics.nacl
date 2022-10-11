@@ -1,6 +1,6 @@
 zendesk_support.macro Close_and_redirect_to_topics@s {
   title = "Close and redirect to topics"
-  active = true
+  active = false
   actions = [
     {
       field = "status"
@@ -24,12 +24,7 @@ zendesk_support.macro Close_and_redirect_to_topics@s {
     },
     {
       field = "comment_value"
-      value = '''
-Thanks for your request. This issue you reported is a known issue. For more information, please visit our forums. 
-
-Success Agent
-{{ticket.assignee.name}}
-'''
+      value = "Thanks for your request. This issue you reported is a known issue. For more information, please visit our forums. "
     },
   ]
   raw_title = "Close and redirect to topics"

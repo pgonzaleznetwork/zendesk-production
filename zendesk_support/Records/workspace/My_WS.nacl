@@ -2,7 +2,7 @@ zendesk_support.workspace My_WS@s {
   title = "My WS"
   description = ""
   macro_ids = [
-    zendesk_support.macro.instance.Take_it_@sl,
+    1500047386421,
   ]
   apps = [
     {
@@ -12,12 +12,5 @@ zendesk_support.workspace My_WS@s {
     },
   ]
   activated = true
-  selected_macros = [
-    {
-      id = zendesk_support.macro.instance.Take_it_@sl
-      title = "Take it!"
-      active = true
-      usage_7d = 0
-    },
-  ]
+  
 }

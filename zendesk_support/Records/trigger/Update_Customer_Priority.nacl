@@ -3,8 +3,8 @@ zendesk_support.trigger Update_Customer_Priority@s {
   active = true
   actions = [
     {
-      field = zendesk_support.ticket_field.instance.tagger_Customer_Priority@us
-      value = zendesk_support.ticket_field__custom_field_options.instance.tagger_Customer_Priority_us__medium@uumuu
+      field = zendesk_support.ticket_field.instance.Customer_Priority_tagger@su
+      value = zendesk_support.ticket_field__custom_field_options.instance.Customer_Priority_tagger_su__medium@uumuu
     },
   ]
   conditions = {

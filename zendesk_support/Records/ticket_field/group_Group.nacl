@@ -1,4 +1,5 @@
-zendesk_support.ticket_field group_Group {
+
+zendesk_support.ticket_field Group_group {
   type = "group"
   title = "Group"
   raw_title = "Group"

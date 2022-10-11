@@ -1,0 +1,10 @@
+zendesk.organization_field oftoremove {
+  type = "integer"
+  key = "oftoremove"
+  
+  
+  raw_title = "OFTORemove"
+  raw_description = ""
+  active = true
+  system = false
+}

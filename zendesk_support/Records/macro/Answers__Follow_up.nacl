@@ -1,6 +1,6 @@
 zendesk_support.macro Answers__Follow_up@ffb {
   title = "Answers::Follow-up"
-  active = true
+  active = false
   actions = [
     {
       field = "group_id"

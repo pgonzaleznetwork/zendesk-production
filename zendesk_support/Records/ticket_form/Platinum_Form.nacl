@@ -1,0 +1,18 @@
+zendesk_support.ticket_form Platinum_Form@s {
+  name = "Platinum Form"
+  raw_name = "Platinum Form"
+  display_name = "It is strong. trust us!"
+  raw_display_name = "It is strong. trust us!"
+  end_user_visible = true
+  ticket_field_ids = [
+    zendesk_support.ticket_field.instance.Status_status,
+    zendesk_support.ticket_field.instance.Group_group,
+    zendesk_support.ticket_field.instance.Assignee_assignee,
+    zendesk_support.ticket_field.instance.Subject_subject,
+    zendesk_support.ticket_field.instance.Description_description,
+    zendesk_support.ticket_field.instance.PlatinumField_checkbox,
+  ]
+  active = true
+  default = false
+  in_all_brands = true
+}

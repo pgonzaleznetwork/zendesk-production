@@ -1,8 +1,9 @@
-zendesk_support.ticket_field__custom_field_options tagger_tagger11__v222 {
+
+zendesk_support.ticket_field__custom_field_options tagger11_tagger__v222 {
   name = "v222"
   raw_name = "v222"
   value = "v222"
   _parent = [
-    zendesk_support.ticket_field.instance.tagger_tagger11,
+    zendesk_support.ticket_field.instance.tagger11_tagger,
   ]
 }

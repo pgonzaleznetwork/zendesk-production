@@ -1,0 +1,11 @@
+zendesk_support.macro renameMe2 {
+  title = "renameMe2"
+  active = true
+  actions = [
+    {
+      field = "status"
+      value = "solved"
+    },
+  ]
+  raw_title = "renameMe2"
+}

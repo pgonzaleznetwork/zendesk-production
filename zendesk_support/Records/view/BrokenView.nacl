@@ -2,85 +2,113 @@ zendesk_support.view BrokenView {
   title = "BrokenView"
   active = true
   execution = {
-    group_by = zendesk_support.ticket_field.instance.decimal_ToRemove
+    group_by = zendesk_support.ticket_field.instance.ToRemove_decimal
     group_order = "desc"
-    sort_by = zendesk_support.ticket_field.instance.decimal_ToRemove
+    sort_by = zendesk_support.ticket_field.instance.ToRemove_decimal
     sort_order = "desc"
     group = {
-      id = zendesk_support.ticket_field.instance.decimal_ToRemove
+      id = zendesk_support.ticket_field.instance.ToRemove_decimal
       title = "ToRemove"
       type = "decimal"
       order = "desc"
+      filterable = false
+      sortable = true
     }
     sort = {
-      id = zendesk_support.ticket_field.instance.decimal_ToRemove
+      id = zendesk_support.ticket_field.instance.ToRemove_decimal
       title = "ToRemove"
       type = "decimal"
       order = "desc"
+      filterable = false
+      sortable = true
     }
     columns = [
       {
         id = "satisfaction_score"
         title = "Satisfaction"
+        filterable = true
+        sortable = true
       },
       {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "assignee"
         title = "Assignee"
+        filterable = true
+        sortable = true
       },
       {
-        id = zendesk_support.ticket_field.instance.decimal_ToRemove
+        id = zendesk_support.ticket_field.instance.ToRemove_decimal
         title = "ToRemove"
         type = "decimal"
+        filterable = false
+        sortable = true
       },
     ]
     fields = [
       {
         id = "satisfaction_score"
         title = "Satisfaction"
+        filterable = true
+        sortable = true
       },
       {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "assignee"
         title = "Assignee"
+        filterable = true
+        sortable = true
       },
     ]
     custom_fields = [
       {
-        id = zendesk_support.ticket_field.instance.decimal_ToRemove
+        id = zendesk_support.ticket_field.instance.ToRemove_decimal
         title = "ToRemove"
         type = "decimal"
+        filterable = false
+        sortable = true
       },
     ]
   }
   conditions = {
     all = [
       {
-        field = zendesk_support.ticket_field.instance.tagger_tagger11
+        field = zendesk_support.ticket_field.instance.tagger11_tagger
         operator = "is"
-        value = zendesk_support.ticket_field__custom_field_options.instance.tagger_tagger11__v223
+        value = zendesk_support.ticket_field__custom_field_options.instance.tagger11_tagger__v223
       },
       {
         field = "brand_id"
@@ -100,7 +128,7 @@ zendesk_support.view BrokenView {
     ]
     any = [
       {
-        field = zendesk_support.ticket_field.instance.date_ToRemove2
+        field = zendesk_support.ticket_field.instance.ToRemove2_date
         operator = "is"
         value = "2022-05-09"
       },

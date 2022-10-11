@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options What_is_this_about__tagger_sssau__missed_package@uuuuumuuu {
+  name = "Missed Package"
+  raw_name = "Missed Package"
+  value = "missed_package"
+  _parent = [
+    zendesk.ticket_field.instance.What_is_this_about__tagger@sssau,
+  ]
+}

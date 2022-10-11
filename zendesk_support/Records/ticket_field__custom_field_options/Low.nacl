@@ -1,8 +1,9 @@
-zendesk_support.ticket_field__custom_field_options tagger_Customer_Priority_us__low@uumuu {
+
+zendesk_support.ticket_field__custom_field_options Customer_Priority_tagger_su__low@uumuu {
   name = "Low"
   raw_name = "Low"
   value = "low"
   _parent = [
-    zendesk_support.ticket_field.instance.tagger_Customer_Priority@us,
+    zendesk_support.ticket_field.instance.Customer_Priority_tagger@su,
   ]
 }

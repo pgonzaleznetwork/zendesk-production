@@ -7,7 +7,7 @@ zendesk_support.trigger phone_test@s {
       value = [
         "gil.hoffer@salto.io",
         1500002631542,
-        "bla bla",
+        "bla bla bla",
       ]
     },
     {
@@ -15,7 +15,7 @@ zendesk_support.trigger phone_test@s {
       value = [
         zendesk_support.group.instance.Support,
         1500002631542,
-        "hellow",
+        "hellow my name is",
       ]
     },
   ]
@@ -36,5 +36,5 @@ zendesk_support.trigger phone_test@s {
     ]
   }
   raw_title = "phone test"
-  category_id = zendesk_support.trigger_category.instance.test
+  category_id = zendesk_support.trigger_category.instance.Other
 }

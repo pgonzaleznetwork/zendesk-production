@@ -22,7 +22,7 @@ zendesk_support.account_setting {
     comments_public_by_default = true
     is_first_comment_private_enabled = true
     maximum_personal_views_to_list = 8
-    status_hold = true
+    status_hold = false
     markdown_ticket_comments = false
     rich_text_comments = true
     emoji_autocompletion = true
@@ -106,7 +106,7 @@ zendesk_support.account_setting {
     backend = "zuora"
   }
   active_features = {
-    on_hold_status = true
+    on_hold_status = false
     user_tagging = true
     ticket_tagging = true
     topic_suggestion = false
@@ -140,7 +140,7 @@ zendesk_support.account_setting {
     explore_not_set = false
     sandbox = true
     suspended_ticket_notification = true
-    twitter = false
+    twitter = true
     facebook = false
     dynamic_contents = true
     light_agents = true
@@ -204,6 +204,7 @@ Please choose your issue below
     search_community_posts = true
     search_external_content = true
     require_article_templates = false
+    default_search_filters = "{\"filters\":[{\"type\":\"language\",\"value\":\"_TICKET\"},{\"type\":\"help-center\",\"value\":\"_TICKET\"}]}"
   }
   routing = {
     enabled = false
@@ -222,5 +223,8 @@ Please choose your issue below
       zendesk_support.locale.instance.he,
       zendesk_support.locale.instance.es_419@b,
     ]
+  }
+  side_conversations = {
+    show_in_context_panel = false
   }
 }

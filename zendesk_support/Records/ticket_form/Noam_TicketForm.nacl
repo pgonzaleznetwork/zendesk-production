@@ -5,17 +5,17 @@ zendesk_support.ticket_form Noam_TicketForm@s {
   raw_display_name = "Crazy Ticket form!!!"
   end_user_visible = true
   ticket_field_ids = [
-    zendesk_support.ticket_field.instance.status_Status,
-    zendesk_support.ticket_field.instance.group_Group,
-    zendesk_support.ticket_field.instance.assignee_Assignee,
-    zendesk_support.ticket_field.instance.subject_Subject,
-    zendesk_support.ticket_field.instance.description_Description,
-    zendesk_support.ticket_field.instance.priority_Priority,
-    zendesk_support.ticket_field.instance.regexp_TestRegex1,
-    zendesk_support.ticket_field.instance.multiselect_TestMultiSelect1,
-    zendesk_support.ticket_field.instance.tagger_tagger11,
-    zendesk_support.ticket_field.instance.tickettype_Type,
-    zendesk_support.ticket_field.instance.tagger_TestDropdown1_updated@us,
+    zendesk_support.ticket_field.instance.Status_status,
+    zendesk_support.ticket_field.instance.Group_group,
+    zendesk_support.ticket_field.instance.Assignee_assignee,
+    zendesk_support.ticket_field.instance.Subject_subject,
+    zendesk_support.ticket_field.instance.Description_description,
+    zendesk_support.ticket_field.instance.Priority_priority,
+    zendesk_support.ticket_field.instance.TestRegex1_regexp,
+    zendesk_support.ticket_field.instance.TestMultiSelect1_multiselect,
+    zendesk_support.ticket_field.instance.tagger11_tagger,
+    zendesk_support.ticket_field.instance.Type_tickettype,
+    zendesk_support.ticket_field.instance.TestDropdown1_updated_tagger@su,
   ]
   active = true
   default = false
@@ -25,12 +25,12 @@ zendesk_support.ticket_form Noam_TicketForm@s {
   ]
   end_user_conditions = [
     {
-      parent_field_id = zendesk_support.ticket_field.instance.tagger_tagger11
+      parent_field_id = zendesk_support.ticket_field.instance.tagger11_tagger
       parent_field_type = "tagger"
-      value = zendesk_support.ticket_field__custom_field_options.instance.tagger_tagger11__v11
+      value = zendesk_support.ticket_field__custom_field_options.instance.tagger11_tagger__v11
       child_fields = [
         {
-          id = zendesk_support.ticket_field.instance.tagger_TestDropdown1_updated@us
+          id = zendesk_support.ticket_field.instance.TestDropdown1_updated_tagger@su
           is_required = true
         },
       ]
@@ -38,12 +38,12 @@ zendesk_support.ticket_form Noam_TicketForm@s {
   ]
   agent_conditions = [
     {
-      parent_field_id = zendesk_support.ticket_field.instance.priority_Priority
+      parent_field_id = zendesk_support.ticket_field.instance.Priority_priority
       parent_field_type = "priority"
       value = "low"
       child_fields = [
         {
-          id = zendesk_support.ticket_field.instance.regexp_TestRegex1
+          id = zendesk_support.ticket_field.instance.TestRegex1_regexp
           is_required = false
           required_on_statuses = {
             type = "SOME_STATUSES"
@@ -54,7 +54,7 @@ zendesk_support.ticket_form Noam_TicketForm@s {
           }
         },
         {
-          id = zendesk_support.ticket_field.instance.multiselect_TestMultiSelect1
+          id = zendesk_support.ticket_field.instance.TestMultiSelect1_multiselect
           is_required = false
           required_on_statuses = {
             type = "NO_STATUSES"
@@ -63,12 +63,12 @@ zendesk_support.ticket_form Noam_TicketForm@s {
       ]
     },
     {
-      parent_field_id = zendesk_support.ticket_field.instance.priority_Priority
+      parent_field_id = zendesk_support.ticket_field.instance.Priority_priority
       parent_field_type = "priority"
       value = "normal"
       child_fields = [
         {
-          id = zendesk_support.ticket_field.instance.regexp_TestRegex1
+          id = zendesk_support.ticket_field.instance.TestRegex1_regexp
           is_required = true
           required_on_statuses = {
             type = "SOME_STATUSES"
@@ -78,7 +78,7 @@ zendesk_support.ticket_form Noam_TicketForm@s {
           }
         },
         {
-          id = zendesk_support.ticket_field.instance.multiselect_TestMultiSelect1
+          id = zendesk_support.ticket_field.instance.TestMultiSelect1_multiselect
           is_required = true
           required_on_statuses = {
             type = "ALL_STATUSES"
@@ -87,12 +87,12 @@ zendesk_support.ticket_form Noam_TicketForm@s {
       ]
     },
     {
-      parent_field_id = zendesk_support.ticket_field.instance.tagger_tagger11
+      parent_field_id = zendesk_support.ticket_field.instance.tagger11_tagger
       parent_field_type = "tagger"
-      value = zendesk_support.ticket_field__custom_field_options.instance.tagger_tagger11__v223
+      value = zendesk_support.ticket_field__custom_field_options.instance.tagger11_tagger__v223
       child_fields = [
         {
-          id = zendesk_support.ticket_field.instance.priority_Priority
+          id = zendesk_support.ticket_field.instance.Priority_priority
           is_required = false
           required_on_statuses = {
             type = "NO_STATUSES"

@@ -28,9 +28,9 @@ zendesk_support.trigger Notify_Tier_3_of_new_escalated_ticket@s {
         value = "solved"
       },
       {
-        field = zendesk_support.ticket_field.instance.tagger_Escalation_Status@us
+        field = zendesk_support.ticket_field.instance.Escalation_Status_tagger@su
         operator = "is"
-        value = zendesk_support.ticket_field__custom_field_options.instance.tagger_Escalation_Status_us__investigating@uumuu
+        value = zendesk_support.ticket_field__custom_field_options.instance.Escalation_Status_tagger_su__investigating@uumuu
       },
       {
         field = "ticket_form_id"

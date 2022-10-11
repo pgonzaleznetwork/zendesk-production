@@ -1,4 +1,5 @@
-zendesk_support.ticket_field priority_Priority {
+
+zendesk_support.ticket_field Priority_priority {
   type = "priority"
   title = "Priority"
   raw_title = "Priority"

@@ -1,8 +1,9 @@
-zendesk_support.ticket_field__custom_field_options tagger_Product_Area_us__api___integration__rest_api@uumuuuuuuuu {
+
+zendesk_support.ticket_field__custom_field_options Product_Area_tagger_su__api___integration__rest_api@uumuuuuuuuu {
   name = "API & Integration::REST API"
   raw_name = "API & Integration::REST API"
   value = "api___integration__rest_api"
   _parent = [
-    zendesk_support.ticket_field.instance.tagger_Product_Area@us,
+    zendesk_support.ticket_field.instance.Product_Area_tagger@su,
   ]
 }

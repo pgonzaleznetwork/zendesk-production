@@ -1,4 +1,5 @@
-zendesk_support.ticket_field status_Status {
+
+zendesk_support.ticket_field Status_status {
   type = "status"
   title = "Status"
   raw_title = "Status"
@@ -23,13 +24,9 @@ zendesk_support.ticket_field status_Status {
       value = "pending"
     },
     {
-      name = "On-hold"
-      value = "hold"
-    },
-    {
       name = "Solved"
       value = "solved"
     },
   ]
-  sub_type_id = 1
+  sub_type_id = 0
 }

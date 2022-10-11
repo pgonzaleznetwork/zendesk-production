@@ -10,54 +10,78 @@ zendesk_support.view All_unsolved_tickets@s {
       id = "assignee"
       title = "Assignee"
       order = "asc"
+      filterable = true
+      sortable = true
     }
     sort = {
       id = "ticket_id"
       title = "ID"
       order = "desc"
+      filterable = true
+      sortable = true
     }
     columns = [
       {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "priority"
         title = "Priority"
+        filterable = true
+        sortable = true
       },
       {
         id = "updated"
         title = "Updated"
+        filterable = true
+        sortable = true
       },
     ]
     fields = [
       {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "priority"
         title = "Priority"
+        filterable = true
+        sortable = true
       },
       {
         id = "updated"
         title = "Updated"
+        filterable = true
+        sortable = true
       },
     ]
   }

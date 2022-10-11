@@ -5,6 +5,5 @@ zendesk_support.user_field_order {
     zendesk_support.user_field.instance.userfielddropdowntest,
     zendesk_support.user_field.instance.uftoremove,
   ]
-  inactive = [
-  ]
+  
 }

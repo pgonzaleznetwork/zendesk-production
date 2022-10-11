@@ -10,54 +10,78 @@ zendesk_support.view Tier_1___All_Regions@ssbss {
       id = "status"
       title = "Status"
       order = "desc"
+      filterable = true
+      sortable = true
     }
     sort = {
       id = "priority"
       title = "Priority"
       order = "desc"
+      filterable = true
+      sortable = true
     }
     columns = [
       {
         id = "satisfaction_score"
         title = "Satisfaction"
+        filterable = true
+        sortable = true
       },
       {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "assignee"
         title = "Assignee"
+        filterable = true
+        sortable = true
       },
     ]
     fields = [
       {
         id = "satisfaction_score"
         title = "Satisfaction"
+        filterable = true
+        sortable = true
       },
       {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "assignee"
         title = "Assignee"
+        filterable = true
+        sortable = true
       },
     ]
   }

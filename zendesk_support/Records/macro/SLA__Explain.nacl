@@ -8,7 +8,19 @@ zendesk_support.macro SLA__Explain@f {
     },
     {
       field = "comment_value_html"
-      value = "<p>{{dc.support_slas}}<br></p><p><br></p><p>Regards,</p><p><span class=\"atwho-inserted\">{{ticket.assignee.name}}</span>​&nbsp;</p>"
+      value = "<blockquote><p>{{${ zendesk_support.dynamic_content_item.instance.Support_SLAs@s }}}<br></p></blockquote><p><br></p><div class=\"zd-indent\" data-test-id=\"zd-editor-indent-line\" style=\"margin-left: 20px;\"><h2><i><b>Regards</b></i>,</h2><p>{{ticket.assignee.name}}​&nbsp;</p></div>"
+    },
+    {
+      field = "comment_value"
+      value = '''
+{{${ zendesk_support.dynamic_content_item.instance.Support_SLAs@s }}}
+
+
+Regards,
+
+{{ticket.assignee.name}}​ 
+
+'''
     },
   ]
   raw_title = "SLA::Explain"

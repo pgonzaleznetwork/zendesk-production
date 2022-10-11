@@ -10,9 +10,9 @@ zendesk_support.trigger Assign_Account_Manager_to_High_Priority_Tickets@s {
   conditions = {
     all = [
       {
-        field = zendesk_support.ticket_field.instance.tagger_Customer_Priority@us
+        field = zendesk_support.ticket_field.instance.Customer_Priority_tagger@su
         operator = "is"
-        value = zendesk_support.ticket_field__custom_field_options.instance.tagger_Customer_Priority_us__high@uumuu
+        value = zendesk_support.ticket_field__custom_field_options.instance.Customer_Priority_tagger_su__high@uumuu
       },
     ]
   }

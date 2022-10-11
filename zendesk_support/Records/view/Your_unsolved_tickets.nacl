@@ -10,62 +10,90 @@ zendesk_support.view Your_unsolved_tickets@s {
       id = "status"
       title = "Status"
       order = "asc"
+      filterable = true
+      sortable = true
     }
     sort = {
       id = "ticket_id"
       title = "ID"
       order = "desc"
+      filterable = true
+      sortable = true
     }
     columns = [
       {
+        id = "sla_next_breach_at"
+        title = "Next SLA breach"
+        filterable = true
+        sortable = true
+      },
+      {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "type"
         title = "Type"
+        filterable = true
+        sortable = true
       },
       {
         id = "priority"
         title = "Priority"
-      },
-      {
-        id = "sla_next_breach_at"
-        title = "Next SLA breach"
+        filterable = true
+        sortable = true
       },
     ]
     fields = [
       {
+        id = "sla_next_breach_at"
+        title = "Next SLA breach"
+        filterable = true
+        sortable = true
+      },
+      {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "type"
         title = "Type"
+        filterable = true
+        sortable = true
       },
       {
         id = "priority"
         title = "Priority"
-      },
-      {
-        id = "sla_next_breach_at"
-        title = "Next SLA breach"
+        filterable = true
+        sortable = true
       },
     ]
   }

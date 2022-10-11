@@ -17,5 +17,5 @@ zendesk_support.trigger Test {
     ]
   }
   raw_title = "Test"
-  category_id = zendesk_support.trigger_category.instance.new_category_name@s
+  category_id = zendesk_support.trigger_category.instance.Billing
 }

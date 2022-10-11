@@ -3,16 +3,16 @@ zendesk_support.automation Automate_Ticket_Type_by_Priority@s {
   active = true
   actions = [
     {
-      field = zendesk_support.ticket_field.instance.tagger_Customer_Priority@us
-      value = zendesk_support.ticket_field__custom_field_options.instance.tagger_Customer_Priority_us__medium@uumuu
+      field = zendesk_support.ticket_field.instance.Customer_Priority_tagger@su
+      value = zendesk_support.ticket_field__custom_field_options.instance.Customer_Priority_tagger_su__medium@uumuu
     },
   ]
   conditions = {
     all = [
       {
-        field = zendesk_support.ticket_field.instance.tagger_Customer_Priority@us
+        field = zendesk_support.ticket_field.instance.Customer_Priority_tagger@su
         operator = "is"
-        value = zendesk_support.ticket_field__custom_field_options.instance.tagger_Customer_Priority_us__high@uumuu
+        value = zendesk_support.ticket_field__custom_field_options.instance.Customer_Priority_tagger_su__high@uumuu
       },
       {
         field = "status"
@@ -20,9 +20,9 @@ zendesk_support.automation Automate_Ticket_Type_by_Priority@s {
         value = "new"
       },
       {
-        field = zendesk_support.ticket_field.instance.tagger_Support_Level@us
+        field = zendesk_support.ticket_field.instance.Support_Level_tagger@su
         operator = "is"
-        value = zendesk_support.ticket_field__custom_field_options.instance.tagger_Support_Level_us__signature_support@uumuuu
+        value = zendesk_support.ticket_field__custom_field_options.instance.Support_Level_tagger_su__signature_support@uumuuu
       },
     ]
   }

@@ -39,5 +39,6 @@ zendesk_support.custom_role Advisor {
     manage_ticket_forms = false
     manage_user_fields = false
     manage_triggers = true
+    manage_automations = true
   }
 }

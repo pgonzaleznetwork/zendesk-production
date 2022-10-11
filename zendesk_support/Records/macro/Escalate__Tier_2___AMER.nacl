@@ -16,8 +16,8 @@ zendesk_support.macro Escalate__Tier_2___AMER@ffssbs {
       value = "true"
     },
     {
-      field = zendesk_support.ticket_field.instance.tagger_Escalation_Status@us
-      value = zendesk_support.ticket_field__custom_field_options.instance.tagger_Escalation_Status_us__escalated@uumuu
+      field = zendesk_support.ticket_field.instance.Escalation_Status_tagger@su
+      value = zendesk_support.ticket_field__custom_field_options.instance.Escalation_Status_tagger_su__escalated@uumuu
     },
     {
       field = "group_id"

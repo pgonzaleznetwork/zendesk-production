@@ -1,4 +1,5 @@
-zendesk_support.ticket_field assignee_Assignee {
+
+zendesk_support.ticket_field Assignee_assignee {
   type = "assignee"
   title = "Assignee"
   raw_title = "Assignee"

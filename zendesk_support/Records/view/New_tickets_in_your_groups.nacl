@@ -10,54 +10,78 @@ zendesk_support.view New_tickets_in_your_groups@s {
       id = "group"
       title = "Group"
       order = "desc"
+      filterable = true
+      sortable = true
     }
     sort = {
       id = "created"
       title = "Requested"
       order = "desc"
+      filterable = false
+      sortable = true
     }
     columns = [
       {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "priority"
         title = "Priority"
+        filterable = true
+        sortable = true
       },
       {
         id = "assignee"
         title = "Assignee"
+        filterable = true
+        sortable = true
       },
     ]
     fields = [
       {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "priority"
         title = "Priority"
+        filterable = true
+        sortable = true
       },
       {
         id = "assignee"
         title = "Assignee"
+        filterable = true
+        sortable = true
       },
     ]
   }

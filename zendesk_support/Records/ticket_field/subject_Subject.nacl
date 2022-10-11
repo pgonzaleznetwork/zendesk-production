@@ -1,4 +1,5 @@
-zendesk_support.ticket_field subject_Subject {
+
+zendesk_support.ticket_field Subject_subject {
   type = "subject"
   title = "Subject"
   raw_title = "Subject"

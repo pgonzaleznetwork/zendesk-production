@@ -1,0 +1,21 @@
+zendesk.automation EdenTest {
+  title = "EdenTest"
+  active = true
+  actions = [
+    {
+      field = "status"
+      value = "open"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "new"
+      },
+    ]
+  }
+  raw_title = "EdenTest"
+  default = false
+}

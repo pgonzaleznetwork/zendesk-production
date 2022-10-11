@@ -1,0 +1,16 @@
+zendesk.macro missingMacro {
+  title = "missingMacro"
+  active = true
+  actions = [
+    {
+      field = "group_id"
+      value = zendesk.group.instance.missing_6120409509651
+    },
+    {
+      field = "type"
+      value = "question"
+    },
+  ]
+  raw_title = "missingMacro"
+  default = false
+}

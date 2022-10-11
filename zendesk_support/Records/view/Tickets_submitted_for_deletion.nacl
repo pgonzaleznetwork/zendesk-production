@@ -8,36 +8,52 @@ zendesk_support.view Tickets_submitted_for_deletion@s {
       {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "assignee"
         title = "Assignee"
+        filterable = true
+        sortable = true
       },
     ]
     fields = [
       {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "assignee"
         title = "Assignee"
+        filterable = true
+        sortable = true
       },
     ]
   }

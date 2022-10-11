@@ -189,5 +189,5 @@ zendesk_support.trigger michel_scott_trigger@s {
   }
   description = "very complex"
   raw_title = "michel scott trigger"
-  category_id = zendesk_support.trigger_category.instance.new_category_name@s
+  category_id = zendesk_support.trigger_category.instance.Billing
 }

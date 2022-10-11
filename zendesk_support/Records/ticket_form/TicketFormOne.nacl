@@ -5,14 +5,14 @@ zendesk_support.ticket_form TicketFormOne {
   raw_display_name = "TicketFormOne - 1"
   end_user_visible = true
   ticket_field_ids = [
-    zendesk_support.ticket_field.instance.status_Status,
-    zendesk_support.ticket_field.instance.group_Group,
-    zendesk_support.ticket_field.instance.assignee_Assignee,
-    zendesk_support.ticket_field.instance.subject_Subject,
-    zendesk_support.ticket_field.instance.description_Description,
-    zendesk_support.ticket_field.instance.priority_Priority,
-    zendesk_support.ticket_field.instance.tagger_tagger11,
-    zendesk_support.ticket_field.instance.tickettype_Type,
+    zendesk_support.ticket_field.instance.Status_status,
+    zendesk_support.ticket_field.instance.Group_group,
+    zendesk_support.ticket_field.instance.Assignee_assignee,
+    zendesk_support.ticket_field.instance.Subject_subject,
+    zendesk_support.ticket_field.instance.Description_description,
+    zendesk_support.ticket_field.instance.Priority_priority,
+    zendesk_support.ticket_field.instance.tagger11_tagger,
+    zendesk_support.ticket_field.instance.Type_tickettype,
   ]
   active = true
   default = false

@@ -19,11 +19,11 @@ zendesk_support.macro MacroToRemove {
       value = zendesk_support.group.instance.GroupToRemove
     },
     {
-      field = zendesk_support.ticket_field.instance.tagger_tagger11
-      value = zendesk_support.ticket_field__custom_field_options.instance.tagger_tagger11__v223
+      field = zendesk_support.ticket_field.instance.tagger11_tagger
+      value = zendesk_support.ticket_field__custom_field_options.instance.tagger11_tagger__v223
     },
     {
-      field = zendesk_support.ticket_field.instance.checkbox_TestCheckbox1
+      field = zendesk_support.ticket_field.instance.TestCheckbox1_checkbox
       value = "true"
     },
   ]

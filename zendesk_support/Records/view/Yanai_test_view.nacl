@@ -10,33 +10,47 @@ zendesk_support.view Yanai_test_view@s {
       id = "updated"
       title = "Updated"
       order = "asc"
+      filterable = true
+      sortable = true
     }
     columns = [
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "assignee"
         title = "Assignee"
+        filterable = true
+        sortable = true
       },
     ]
     fields = [
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "assignee"
         title = "Assignee"
+        filterable = true
+        sortable = true
       },
     ]
   }
@@ -55,9 +69,9 @@ zendesk_support.view Yanai_test_view@s {
         value = "neta.marcus@salto.io"
       },
       {
-        field = zendesk_support.ticket_field.instance.tagger_tagger11
+        field = zendesk_support.ticket_field.instance.tagger11_tagger
         operator = "is"
-        value = zendesk_support.ticket_field__custom_field_options.instance.tagger_tagger11__v224
+        value = zendesk_support.ticket_field__custom_field_options.instance.tagger11_tagger__v224
       },
     ]
   }

@@ -6,6 +6,10 @@ zendesk_support.trigger newTrigger2 {
       field = "status"
       value = "solved"
     },
+    {
+      field = zendesk_support.ticket_field.instance.Product_Area_tagger@su
+      value = zendesk_support.ticket_field__custom_field_options.instance.Product_Area_tagger_su__configuration__workflows___triggers@uumuuuuuuu
+    },
   ]
   conditions = {
     all = [

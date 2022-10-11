@@ -1,0 +1,26 @@
+zendesk.trigger Test {
+  title = "TestTestTest"
+  active = true
+  actions = [
+    {
+      field = zendesk.organization_field.instance.another_drop_down
+      value = zendesk.organization_field__custom_field_options.instance.another_drop_down__option3
+    },
+    {
+      field = "brand_id"
+      value = zendesk.brand.instance.missing_9326253807763
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "current_via_id"
+        operator = "is"
+        value = zendesk.channel.instance.Chat
+      },
+    ]
+  }
+  raw_title = "TestTestTest"
+  category_id = zendesk.trigger_category.instance.Billing
+  default = false
+}

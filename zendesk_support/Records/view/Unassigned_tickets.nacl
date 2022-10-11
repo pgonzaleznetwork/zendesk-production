@@ -9,49 +9,71 @@ zendesk_support.view Unassigned_tickets@s {
       id = "created"
       title = "Requested"
       order = "desc"
+      filterable = false
+      sortable = true
     }
     columns = [
       {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "priority"
         title = "Priority"
+        filterable = true
+        sortable = true
       },
       {
         id = "group"
         title = "Group"
+        filterable = true
+        sortable = true
       },
     ]
     fields = [
       {
         id = "subject"
         title = "Subject"
+        filterable = false
+        sortable = false
       },
       {
         id = "requester"
         title = "Requester"
+        filterable = true
+        sortable = true
       },
       {
         id = "created"
         title = "Requested"
+        filterable = false
+        sortable = true
       },
       {
         id = "priority"
         title = "Priority"
+        filterable = true
+        sortable = true
       },
       {
         id = "group"
         title = "Group"
+        filterable = true
+        sortable = true
       },
     ]
   }

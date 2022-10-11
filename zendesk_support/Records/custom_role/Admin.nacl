@@ -33,11 +33,12 @@ zendesk_support.custom_role Admin {
     view_access = "full"
     user_view_access = "full"
     voice_dashboard_access = true
-    manage_contextual_workspaces = true
-    manage_organization_fields = true
-    manage_ticket_fields = true
-    manage_ticket_forms = true
-    manage_user_fields = true
-    manage_triggers = true
+    manage_contextual_workspaces = false
+    manage_organization_fields = false
+    manage_ticket_fields = false
+    manage_ticket_forms = false
+    manage_user_fields = false
+    manage_triggers = false
+    manage_automations = false
   }
 }

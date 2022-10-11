@@ -8,8 +8,8 @@ zendesk_support.macro Escalate__Management_Escalation@ffs {
       value = zendesk_support.group.instance.Support_Managers@s
     },
     {
-      field = zendesk_support.ticket_field.instance.tagger_Escalation_Status@us
-      value = zendesk_support.ticket_field__custom_field_options.instance.tagger_Escalation_Status_us__escalated@uumuu
+      field = zendesk_support.ticket_field.instance.Escalation_Status_tagger@su
+      value = zendesk_support.ticket_field__custom_field_options.instance.Escalation_Status_tagger_su__escalated@uumuu
     },
     {
       field = "comment_mode_is_public"
@@ -30,8 +30,8 @@ zendesk_support.macro Escalate__Management_Escalation@ffs {
       ]
     },
     {
-      field = zendesk_support.ticket_field.instance.tagger_Support_Level@us
-      value = zendesk_support.ticket_field__custom_field_options.instance.tagger_Support_Level_us__signature_support@uumuuu
+      field = zendesk_support.ticket_field.instance.Support_Level_tagger@su
+      value = zendesk_support.ticket_field__custom_field_options.instance.Support_Level_tagger_su__signature_support@uumuuu
     },
   ]
   restriction = {

@@ -23,6 +23,5 @@ zendesk_support.business_hours_schedule AMER {
       end_time = 8220
     },
   ]
-  holidays = [
-  ]
+  
 }

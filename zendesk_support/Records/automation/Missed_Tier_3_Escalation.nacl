@@ -12,9 +12,9 @@ zendesk_support.automation Missed_Tier_3_Escalation@s {
   conditions = {
     all = [
       {
-        field = zendesk_support.ticket_field.instance.tagger_Escalation_Status@us
+        field = zendesk_support.ticket_field.instance.Escalation_Status_tagger@su
         operator = "is"
-        value = zendesk_support.ticket_field__custom_field_options.instance.tagger_Escalation_Status_us__escalated@uumuu
+        value = zendesk_support.ticket_field__custom_field_options.instance.Escalation_Status_tagger_su__escalated@uumuu
       },
       {
         field = "updated_at"

@@ -5,6 +5,5 @@ zendesk_support.organization_field_order {
     zendesk_support.organization_field.instance.now,
     zendesk_support.organization_field.instance.oftoremove,
   ]
-  inactive = [
-  ]
+  
 }

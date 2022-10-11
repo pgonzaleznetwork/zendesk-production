@@ -13,44 +13,40 @@ zendesk_support.trigger_order {
         zendesk_support.trigger.instance.Notify_assignee_of_assignment@s,
         zendesk_support.trigger.instance.Yanai_Sened@s,
         zendesk_support.trigger.instance.Assign_Account_Manager_to_High_Priority_Tickets@s,
-        zendesk_support.trigger.instance.newTrigger2,
         zendesk_support.trigger.instance.Notify_Tier_3_of_new_escalated_ticket@s,
+        zendesk_support.trigger.instance.newTrigger2,
       ]
       inactive = [
         zendesk_support.trigger.instance.Auto_assign_to_first_email_responding_agent@bsssss,
         zendesk_support.trigger.instance.Notify_group_of_assignment@s,
         zendesk_support.trigger.instance.Notify_all_agents_of_received_request@s,
-        zendesk_support.trigger.instance.Neta_empty_org_test@s,
+        zendesk_support.trigger.instance.Neta_empty_org_test_and_1231@s,
       ]
     },
     {
-      category = zendesk_support.trigger_category.instance.new_category_name@s
+      category = zendesk_support.trigger_category.instance.Billing
       active = [
         zendesk_support.trigger.instance.michel_scott_trigger@s,
-        zendesk_support.trigger.instance.Test1,
         zendesk_support.trigger.instance.Test,
+        zendesk_support.trigger.instance.Test1,
       ]
-      inactive = [
-      ]
+      
     },
     {
-      category = zendesk_support.trigger_category.instance.test
+      category = zendesk_support.trigger_category.instance.Other
       active = [
         zendesk_support.trigger.instance.Slack_Ticket_Trigger@s,
-        zendesk_support.trigger.instance.Broken_Trigger@s,
         zendesk_support.trigger.instance.phone_test@s,
         zendesk_support.trigger.instance.BrokenTrigger2,
       ]
-      inactive = [
-      ]
+      
     },
     {
       category = zendesk_support.trigger_category.instance.Answer_Bot_Triggers@s
       active = [
         zendesk_support.trigger.instance.Example_Answer_Bot_trigger_for_Noam_Hammer@s,
       ]
-      inactive = [
-      ]
+      
     },
     {
       category = zendesk_support.trigger_category.instance.Field_Updates@s
@@ -61,16 +57,14 @@ zendesk_support.trigger_order {
         zendesk_support.trigger.instance.Request_customer_satisfaction_rating__Messaging_@ssssjk,
         zendesk_support.trigger.instance.Request_customer_satisfaction_rating__social_messaging_@ssssjsk,
       ]
-      inactive = [
-      ]
+      
     },
     {
       category = zendesk_support.trigger_category.instance.General_Settings@s
       active = [
         zendesk_support.trigger.instance.Set_priority_and_group@s,
       ]
-      inactive = [
-      ]
+      
     },
   ]
 }

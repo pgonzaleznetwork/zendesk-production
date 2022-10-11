@@ -1,0 +1,17 @@
+zendesk_support.ticket_field testField_text {
+  type = "text"
+  title = "testField"
+  raw_title = "testField"
+  description = ""
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  title_in_portal = "abc  bbabccc"
+  raw_title_in_portal = "{{${ zendesk_support.dynamic_content_item.instance.test }}} {{dc.notExist}} bb{{${ zendesk_support.dynamic_content_item.instance.test }}}cc"
+  visible_in_portal = true
+  editable_in_portal = true
+  required_in_portal = false
+  removable = true
+  
+}

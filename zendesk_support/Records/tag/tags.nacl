@@ -1,15 +1,9 @@
-zendesk_support.tag dasdad {
-  id = "dasdad"
-}
+
 zendesk_support.tag bla {
   id = "bla"
 }
-zendesk_support.tag bbb {
-  id = "bbb"
-}
-zendesk_support.tag aaa {
-  id = "aaa"
-}
+
+
 zendesk_support.tag option2 {
   id = "option2"
 }
@@ -48,4 +42,7 @@ zendesk_support.tag review_delete {
 }
 zendesk_support.tag customer_notified {
   id = "customer_notified"
+}
+zendesk_support.tag overdue {
+  id = "overdue"
 }

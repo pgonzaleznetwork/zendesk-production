@@ -5,13 +5,13 @@ zendesk_support.ticket_form Other {
   raw_display_name = "None of these"
   end_user_visible = true
   ticket_field_ids = [
-    zendesk_support.ticket_field.instance.status_Status,
-    zendesk_support.ticket_field.instance.group_Group,
-    zendesk_support.ticket_field.instance.assignee_Assignee,
-    zendesk_support.ticket_field.instance.subject_Subject,
-    zendesk_support.ticket_field.instance.description_Description,
-    zendesk_support.ticket_field.instance.tagger_Customer_Priority@us,
-    zendesk_support.ticket_field.instance.tagger_Product_Area@us,
+    zendesk_support.ticket_field.instance.Status_status,
+    zendesk_support.ticket_field.instance.Group_group,
+    zendesk_support.ticket_field.instance.Assignee_assignee,
+    zendesk_support.ticket_field.instance.Subject_subject,
+    zendesk_support.ticket_field.instance.Description_description,
+    zendesk_support.ticket_field.instance.Customer_Priority_tagger@su,
+    zendesk_support.ticket_field.instance.Product_Area_tagger@su,
   ]
   active = true
   default = false
@@ -21,12 +21,12 @@ zendesk_support.ticket_form Other {
   ]
   end_user_conditions = [
     {
-      parent_field_id = zendesk_support.ticket_field.instance.tagger_Customer_Priority@us
+      parent_field_id = zendesk_support.ticket_field.instance.Customer_Priority_tagger@su
       parent_field_type = "tagger"
-      value = zendesk_support.ticket_field__custom_field_options.instance.tagger_Customer_Priority_us__low@uumuu
+      value = zendesk_support.ticket_field__custom_field_options.instance.Customer_Priority_tagger_su__low@uumuu
       child_fields = [
         {
-          id = zendesk_support.ticket_field.instance.tagger_Product_Area@us
+          id = zendesk_support.ticket_field.instance.Product_Area_tagger@su
           is_required = false
         },
       ]
@@ -34,12 +34,12 @@ zendesk_support.ticket_form Other {
   ]
   agent_conditions = [
     {
-      parent_field_id = zendesk_support.ticket_field.instance.tagger_Customer_Priority@us
+      parent_field_id = zendesk_support.ticket_field.instance.Customer_Priority_tagger@su
       parent_field_type = "tagger"
-      value = zendesk_support.ticket_field__custom_field_options.instance.tagger_Customer_Priority_us__high@uumuu
+      value = zendesk_support.ticket_field__custom_field_options.instance.Customer_Priority_tagger_su__high@uumuu
       child_fields = [
         {
-          id = zendesk_support.ticket_field.instance.tagger_Product_Area@us
+          id = zendesk_support.ticket_field.instance.Product_Area_tagger@su
           is_required = true
           required_on_statuses = {
             type = "ALL_STATUSES"

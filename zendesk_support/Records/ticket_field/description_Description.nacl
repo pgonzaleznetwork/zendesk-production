@@ -1,4 +1,5 @@
-zendesk_support.ticket_field description_Description {
+
+zendesk_support.ticket_field Description_description {
   type = "description"
   title = "Description"
   raw_title = "Description"
